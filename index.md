@@ -1,37 +1,99 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/jonathannewtonm/site/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ipcQYUBED_VqfH-RHVOqV0orgQU-ar26bFJEmhbqOLw" />
+    <title>marksnewton.com</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+    <style type="text/css">
+      html {
+        box-sizing: border-box;
+      }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      *, *::after, *::before {
+        box-sizing: inherit;
+      }
 
-### Markdown
+      body, html {
+        width: 100%;
+        height: 100%;
+      }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      .Branding {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
 
-```markdown
-Syntax highlighted code block
+      .Branding-brand {
+        max-width: 100%;
+      }
 
-# Header 1
-## Header 2
-### Header 3
+      h1, h2 {
+        color: #BF5700;
+        text-align: center;
+      }
 
-- Bulleted
-- List
+      h1 {
+        font-family: "Open Sans Condensed", sans-serif;
+        text-transform: uppercase;
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: 700;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
 
-1. Numbered
-2. List
+      h2 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        margin-top: 0;
+        letter-spacing: 0.08em;
+      }
+      h2 a {
+        color: #BF5700;
+        text-decoration: none;
+      }
+      h2 a:hover {
+        text-decoration: underline;
+      }
 
-**Bold** and _Italic_ and `Code` text
+      @media only screen and (min-device-width: 321px) {
+        h1 {
+          font-size: 48px;
+          line-height: 48px;
+        }
+      }
 
-[Link](url) and ![Image](src)
-```
+      @media only screen and (min-width: 860px) {
+        h1 {
+          font-size: 72px;
+          line-height: 72px;
+        }
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        .Branding-brand {
+          max-width: 50%;
+        }
+      }
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jonathannewtonm/site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    </style>
+  </head>
+  <body>
+    <div class="Branding">
+      <div class="Branding-brand">
+        <h2>Mark S. Newton</h2>
+        <h2>GLIDE LLC, COO</h2>
+        <h2>CTO/IO | Mentor/Advisor</h2>
+        <h2>Austin | D/FW | Houston | Nashville | Denver</h2>
+        <h2><a href="https://www.linkedin.com/in/marksnewton">CTO/IO Portfolio</a></h2>
+        <h2>
+          <a href="mailto:github@marksnewton.com" target="_top">Contact</a>
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
